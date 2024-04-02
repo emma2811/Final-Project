@@ -13,3 +13,22 @@ The main objective of this process is to:
 1.	Estimating a model for predicting data
 2.	outline a suitable misfit by comparing data from the field survey to the predicted data.
 3.	Produce an optimal model by constraining the infinite number of solutions to information that are already known.
+
+### Software Installation
+For the purpose of this project, we will be working in SimPEG.
+
+#### Installation can be done through
+
+#### 1.  Conda: using the code below
+
+conda install SimPEG --channel conda-forge
+
+#### 2. PyPi: using the code below
+
+a. pip install SimPEG
+b. pip install --upgrade SimPEG
+
+#### 3. Installig from source
+
+git clone https://github.com/simpeg/simpeg
+pip install .
