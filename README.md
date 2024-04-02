@@ -26,9 +26,11 @@ conda install SimPEG --channel conda-forge
 #### 2. PyPi: using the code below
 
 a. pip install SimPEG
+
 b. pip install --upgrade SimPEG
 
 #### 3. Installig from source
 
 git clone https://github.com/simpeg/simpeg
+
 pip install .
