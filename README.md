@@ -14,6 +14,12 @@ The main objective of this process is to:
 2.	outline a suitable misfit by comparing data from the field survey to the predicted data.
 3.	Produce an optimal model by constraining the infinite number of solutions to information that are already known.
 
+### Today's Goal
+For today we will work on the first part of our project objectives. This will include:
+1. Creating a synthetic magnetic susceptibility data
+2. creating a function and a model to predict TMI data and then
+3. creating a forward simulation of a TMI data.
+
 ### Software Installation
 For the purpose of this project, we will be working in SimPEG.
 
@@ -35,7 +41,12 @@ For the purpose of this project, we will be working in SimPEG.
  SimPEG.utils
  SimPEG.potential_fields
 
- incase you don't have all of this installed, a .yml environment file attached to this repository. You can create and activate it and work in this environment.
+ ### Conda Environment
+ incase you don't have all of this installed, a .yml environment file attached to this repository. I provide a conda environment with all needed dependencies for this tutorial.
+ Just create and activate it with:
+
+    conda env create --file=environment.yml
+    conda activate my_magsusinv
 
  ### Documentation 
 A Step by step guideline is provided in codes that is provided in this repository. Incase you want to know more about SimPEG you can visit the link below
