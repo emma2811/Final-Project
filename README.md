@@ -17,20 +17,12 @@ The main objective of this process is to:
 ### Software Installation
 For the purpose of this project, we will be working in SimPEG.
 
-#### Installation can be done through
+ I assume, that you already have conda set up and running. please clone or download this repository to get started.
 
-#### 1.  Conda: using the code below
+ #### Installation of SimPEG
 
-conda install SimPEG --channel conda-forge
+ Guidelines on the installation of SimPEG can be found in the SimPEG Documentation using the link below.
 
-#### 2. PyPi: using the code below
+ https://docs.simpeg.xyz/
 
-a. pip install SimPEG
-
-b. pip install --upgrade SimPEG
-
-#### 3. Installig from source
-
-git clone https://github.com/simpeg/simpeg
-
-pip install .
+ 
