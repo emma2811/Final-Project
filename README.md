@@ -10,15 +10,15 @@ Explore the significance of magnetic characteristics in geological and environme
 ### Project Objectives
 
 The main objective of this process is to:
-1.	Estimating a model for predicting data TMI data
+1.	Estimating a model for predicting data data
 2.	outline a suitable misfit by comparing data from the field survey to the predicted data.
 3.	Produce an optimal model by constraining the infinite number of solutions to information that are already known.
 
 ### Today's Goal
 For today we will work on the first part of our project objectives. This will include:
-1. Creating a synthetic magnetic susceptibility data
-2. creating a function and a model to predict TMI data and then
-3. creating a forward simulation of a TMI data.
+1. Creating a synthetic magnetic data
+2. creating a function and a model to predict susceptibility data and then
+3. creating a forward simulation of a data.
 
 ### Software Installation
 For the purpose of this project, we will be working in SimPEG.
