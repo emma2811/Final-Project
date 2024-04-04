@@ -3,7 +3,12 @@ channels:
  - defaults
 dependencies:
  - python=3.10
+ - jupyter
  - numpy
+ - simpeg=0.20.0
+ - discretize=0.10.0
+ - pillow=10.1.0
+ - pip=23.2.1
  - pandas
  - scikit-learn
  - matplotlib
