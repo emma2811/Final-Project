@@ -1,6 +1,8 @@
 name: my_magsusinv
 channels:
  - defaults
+ - conda-forge
+ - anaconda
 dependencies:
  - python=3.10
  - jupyter
