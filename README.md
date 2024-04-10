@@ -46,7 +46,7 @@ For the purpose of this project, we will be working in SimPEG.
  Just create and activate it with:
 
     conda env create --file=environment.yml
-    conda activate my_magsusinv
+    conda activate my_environment
 
  ### Documentation 
 A Step by step guideline is provided in codes that is provided in this repository. Incase you want to know more about SimPEG you can visit the link below
