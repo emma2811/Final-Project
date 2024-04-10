@@ -45,7 +45,7 @@ For the purpose of this project, we will be working in SimPEG.
  incase you don't have all of this installed, a .yml environment file attached to this repository. I provide a conda environment with all needed dependencies for this tutorial.
  Just create and activate it with:
 
-    conda env create --file=environment.yml
+    conda env create --file environment.yml
     conda activate my_environment
 
  ### Documentation 
