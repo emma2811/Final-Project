@@ -1,0 +1,14 @@
+name: my_environment
+channels:
+ - defaults
+ - conda-forge
+ - anaconda
+dependencies:
+ - python=3.10
+ - jupyter
+ - numpy
+ - simpeg=0.20.0
+ - discretize=0.10.0
+ - pip=23.2.1
+ - pandas
+ - matplotlib
