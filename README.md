@@ -1,24 +1,30 @@
 # Final-Project
 
+## Topic
+### INVERSION OF TOTAL MAGNETIC INTENSITY (TMI) DATA: AN APPLICATION FOR MINERAL EXPLORATION 
+
 Author: Emmanuel Amekudzi.
 
 ### My end of term project for 454
 
 ### Project Goal: 
-Explore the significance of magnetic characteristics in geological and environmental contexts by developing an overview of the geophysical inversion of magnetic susceptibility data. Through exploring the fundamentals, strategies, and uses of inversion technique, we may unlock the abundance of data hidden beneath the surface of the Earth and advance our knowledge of the dynamic processes sculpting it.
+The goal of this project is to use some traditional approaches which will include:
+1.	The introduction of an appropriate weighting function which counteracts the field decay by formulating an inverse problem as an iteratively re-weighted least-squares (IRLS) optimization problem and 
+2.	using Tikhonov regularization to introduces a quadratic penalty related to the solution norm, which can help stabilize the solution and reduce ambiguity, stabilize the solution and improve its accuracy by restricting it to a subspace of models with specific characteristics
+
 
 ### Project Objectives
 
 The main objective of this process is to:
-1.	Estimating a model for predicting data data
-2.	outline a suitable misfit by comparing data from the field survey to the predicted data.
-3.	Produce an optimal model by constraining the infinite number of solutions to information that are already known.
+1.	1.	Create a model for predicting TMI magnetic data
+2.	Inverse the data obtained to generate a magnetic susceptibility model of the subsurface.
 
 ### Today's Goal
 For today we will work on the first part of our project objectives. This will include:
 1. Creating a synthetic magnetic data
-2. creating a function and a model to predict susceptibility data and then
-3. creating a forward simulation of a data.
+2. creating a function and a model to predict susceptibility data
+3. creating a forward simulation of a data and then
+4. inverting the data obtained to get a subsurface susceptibility model.
 
 ### Software Installation
 For the purpose of this project, we will be working in SimPEG.
@@ -52,4 +58,5 @@ For the purpose of this project, we will be working in SimPEG.
 A Step by step guideline is provided in codes that is provided in this repository. Incase you want to know more about SimPEG you can visit the link below
 
 https://docs.simpeg.xyz/content/user_guide.html
+
 
