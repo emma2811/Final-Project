@@ -19,8 +19,8 @@ The main objective of this process is to:
 1.	1.	Create a model for predicting TMI magnetic data
 2.	Inverse the data obtained to generate a magnetic susceptibility model of the subsurface.
 
-### Today's Goal
-For today we will work on the first part of our project objectives. This will include:
+### Step to help achieve our goals
+To help achieve our goals and abjectives, our main focus will include:
 1. Creating a synthetic magnetic data
 2. creating a function and a model to predict susceptibility data
 3. creating a forward simulation of a data and then
